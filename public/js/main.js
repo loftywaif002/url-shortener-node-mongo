@@ -24,7 +24,6 @@ var APP = (function() {
             })
         });
     };
-
     return {
         init: _init
     };
