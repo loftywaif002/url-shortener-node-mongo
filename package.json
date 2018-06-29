@@ -1,0 +1,22 @@
+{
+  "name": "amax-url-shortener",
+  "version": "1.0.0",
+  "description": "A simple URL shortener built with Node.js and MongoDB",
+  "dependencies": {
+    "atob": "^2.0.3",
+    "body-parser": "^1.15.2",
+    "btoa": "^1.1.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.10.2",
+    "mongoose": "^4.13.7"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "4.8.4"
+  },
+  "author": "Dipro Chowdhury",
+  "license": "MIT"
+}
