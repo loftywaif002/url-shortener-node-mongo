@@ -13,8 +13,8 @@ var express = require('express'),
     btoa = require('btoa'),
     atob = require('atob'),
     promise,
-    connectionString = process.env.connectionString,
-    port = process.env.PORT || 8080;
+    connectionString = "mongodb://192.168.99.100:27017/amax-url-shortener_db",
+    port = 8080;
 
 // ExpressJS server start
 http.listen(port, function() {
